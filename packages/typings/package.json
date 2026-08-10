@@ -1,0 +1,14 @@
+{
+  "name": "@cv-builder/typings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Package doesn't have instructions to starting\"",
+    "start": "echo \"Package doesn't have instructions to starting\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-commit": "echo \"Package doesn't have instructions to linting\""
+  },
+  "author": "",
+  "license": "ISC"
+}

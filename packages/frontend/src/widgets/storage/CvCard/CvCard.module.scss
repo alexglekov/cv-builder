@@ -1,0 +1,45 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+	position: relative;
+
+	padding: vw(33) vw(28);
+	background: #ffffff;
+	border: 1px solid #d0d0d0;
+	border-radius: vw(10);
+
+	.cardWrapper {
+		display: flex;
+		overflow: hidden;
+		width: 100%;
+		display: flex;
+
+		.features {
+			display: flex;
+			gap: vw(10);
+			margin-left: auto;
+
+			.downloadBtn {
+				height: vw(32);
+				width: vw(32);
+
+				svg {
+					height: vw(32);
+					width: vw(32);
+
+					path {
+						fill: #c93c3d;
+					}
+				}
+			}
+		}
+	}
+
+	.circleBtn {
+		position: absolute;
+		bottom: -(vw(18));
+		right: vw(18);
+		transform: rotate(-90deg);
+	}
+}

@@ -1,0 +1,65 @@
+@import '../../../../app/styles/index.scss';
+
+.loaderWrapper {
+	margin: 20% 50%;
+}
+
+.info {
+	height: fit-content;
+	width: fit-content;
+	display: flex;
+
+	.avatar {
+		width: vw(165);
+		height: vw(165);
+
+		img {
+			width: vw(165);
+			height: vw(165);
+			border-radius: vw(165);
+		}
+	}
+
+	.credentialsAndOtherInfo {
+		display: flex;
+		flex-direction: column;
+		margin-left: vw(20);
+
+		.fio {
+			cursor: default;
+			margin-top: vw(8);
+			font-weight: 700;
+			font-size: vw(24);
+			line-height: vw(29);
+
+			color: #000000;
+		}
+
+		.otherInfo {
+			margin-top: vw(30);
+			display: flex;
+			flex-direction: column;
+
+			.block {
+				cursor: default;
+				display: flex;
+
+				margin-bottom: vw(40);
+
+				.item {
+					margin-left: vw(50);
+					width: vw(200);
+
+					&:first-child {
+						margin-left: vw(20);
+					}
+
+					.blockInfo {
+						width: vw(200);
+						word-wrap: break-word;
+					}
+				}
+			}
+		}
+	}
+}

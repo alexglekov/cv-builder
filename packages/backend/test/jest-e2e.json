@@ -1,0 +1,25 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@cv-builder/exceptions/(.*)": "<rootDir>/../libs/exceptions/src/$1",
+    "@cv-builder/exceptions": "<rootDir>/../libs/exceptions/src",
+    "@cvb/prisma/(.*)": "<rootDir>/../libs/prisma/src/$1",
+    "@cvb/prisma": "<rootDir>/../libs/prisma/src",
+    "@cvb/aws/(.*)": "<rootDir>/../libs/aws/src/$1",
+    "@cvb/aws": "<rootDir>/../libs/aws/src",
+    "@cvb/pdf/(.*)": "<rootDir>/../libs/pdf/src/$1",
+    "@cvb/pdf": "<rootDir>/../libs/pdf/src",
+    "@cvb/pdf-creator/(.*)": "<rootDir>/../libs/pdf-creator/src/$1",
+    "@cvb/pdf-creator": "<rootDir>/../libs/pdf-creator/src"
+  }
+}

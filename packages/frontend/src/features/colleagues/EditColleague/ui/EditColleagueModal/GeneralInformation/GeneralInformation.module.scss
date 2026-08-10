@@ -1,0 +1,84 @@
+@import '../../../../../../app/styles/index.scss';
+
+.wrapper {
+	padding: vw(30) vw(60) 0 vw(60);
+
+	.userConstantInfo {
+		padding-top: vw(30);
+		display: flex;
+		height: fit-content;
+
+		.avatar {
+			width: vw(120);
+			height: vw(120);
+
+			img {
+				width: vw(120);
+				height: vw(120);
+				border-radius: vw(200);
+			}
+		}
+		.fio {
+			cursor: default;
+			margin: vw(10) 0 0 vw(20);
+			display: flex;
+			align-items: center;
+			font-weight: 700;
+			font-size: vw(24);
+			line-height: vw(29);
+			color: #000000;
+		}
+	}
+
+	.content {
+		.errorFieldSet {
+			border-color: rgba($color: #c93c3d, $alpha: 0.4);
+		}
+
+		fieldset {
+			margin-top: vw(15);
+			height: fit-content;
+			width: vw(400);
+			border-color: #d0d0d0;
+			border-radius: vw(10);
+			border-style: solid;
+
+			legend {
+				cursor: default;
+				font-weight: 700;
+				font-size: vw(16);
+				line-height: vw(20);
+
+				color: rgba(0, 0, 0, 0.4);
+			}
+
+			select {
+				width: 96%;
+				background-color: transparent;
+				outline: none;
+				border: none;
+
+				font-weight: 500;
+				font-size: vw(16);
+				line-height: vw(20);
+				color: rgba(0, 0, 0, 0.5);
+			}
+
+			font-weight: 500;
+			font-size: vw(16);
+			line-height: vw(20);
+
+			color: rgba(0, 0, 0, 0.7);
+		}
+
+		.errorMsg {
+			cursor: default;
+			float: right;
+			margin: vw(10) vw(30) 0 0;
+			font-weight: 400;
+			font-size: vw(14);
+			line-height: vw(17);
+			color: #c93c3d;
+		}
+	}
+}

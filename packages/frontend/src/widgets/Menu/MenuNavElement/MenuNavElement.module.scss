@@ -1,0 +1,35 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	cursor: pointer;
+	display: flex;
+	height: vw(60);
+	align-items: center;
+	text-decoration: none;
+
+	svg {
+		margin-left: vw(30);
+		width: vw(28);
+		height: vw(28);
+	}
+
+	.linkText {
+		color: black;
+		display: flex;
+		align-items: center;
+		margin-left: vw(13);
+		font-weight: 500;
+		font-size: vw(16);
+		line-height: vw(20);
+	}
+}
+
+.isActiveLink {
+	background-color: rgba($color: red, $alpha: 0.15);
+	background-image: url('../../../../public/images/menu/red-line.png');
+	background-repeat: no-repeat;
+
+	svg path {
+		fill: red;
+	}
+}

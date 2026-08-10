@@ -1,0 +1,16 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	cursor: default;
+
+	height: 100%;
+	padding: vw(40) vw(40);
+	display: flex;
+
+	.editBtn {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+}

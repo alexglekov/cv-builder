@@ -1,0 +1,41 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+	position: relative;
+
+	padding: vw(33) vw(28);
+	background: #ffffff;
+	border: 1px solid #d0d0d0;
+	border-radius: vw(10);
+
+	.title {
+		cursor: default;
+		font-style: normal;
+		font-weight: 500;
+		font-size: vw(20);
+		line-height: vw(24);
+
+		color: #000000;
+	}
+
+	.features {
+		margin-left: auto;
+		display: flex;
+		gap: vw(10);
+		align-items: center;
+		flex-direction: row;
+
+		.icon {
+			cursor: pointer;
+
+			width: vw(22);
+			height: vw(22);
+
+			svg {
+				width: vw(22);
+				height: vw(22);
+			}
+		}
+	}
+}

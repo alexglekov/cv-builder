@@ -1,0 +1,62 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+
+	.block {
+		padding: vw(20);
+	}
+
+	.border {
+		border-bottom: vw(1) solid #c93c3d;
+	}
+
+	.headerSkillsTable {
+		display: flex;
+		align-items: center;
+		border-bottom: vw(2) solid #c93c3d;
+		padding-bottom: vw(10);
+
+		.skillColumn {
+			margin-left: vw(25);
+		}
+
+		.expsColumn {
+			margin-right: vw(250);
+			margin-left: auto;
+		}
+
+		.lastUsedColumn {
+			margin-right: vw(25);
+			width: vw(150);
+			word-wrap: break-word;
+		}
+
+		.textColumn {
+			cursor: default;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 500;
+			font-size: vw(16);
+			line-height: vw(24);
+
+			color: #000000;
+		}
+	}
+
+	.notSkills {
+		cursor: default;
+		align-self: center;
+
+		font-weight: 500;
+		font-size: vw(22);
+		line-height: vw(23);
+
+		color: rgba(0, 0, 0, 0.6);
+	}
+}
+
+.loaderWrapper {
+	margin: 20% 50%;
+}

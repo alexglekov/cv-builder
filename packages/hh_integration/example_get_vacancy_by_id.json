@@ -1,0 +1,198 @@
+[
+  {
+      "id": "89064284",
+      "premium": false,
+      "name": "Fullstack-разработчик TypeScript (NodeJs/React)",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+          "id": "99",
+          "name": "Уфа",
+          "url": "https://api.hh.ru/areas/99"
+      },
+      "salary": {
+          "from": 40000,
+          "to": 60000,
+          "currency": "RUR",
+          "gross": false
+      },
+      "type": {
+          "id": "open",
+          "name": "Открытая"
+      },
+      "address": {
+          "city": "Уфа",
+          "street": "улица Мубарякова",
+          "building": "3",
+          "lat": 54.69865121141865,
+          "lng": 55.99726565144979,
+          "description": null,
+          "raw": "Уфа, улица Мубарякова, 3",
+          "metro": null,
+          "metro_stations": [],
+          "id": "5247237"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-11-03T18:14:04+0300",
+      "created_at": "2023-11-03T18:14:04+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89064284",
+      "show_logo_in_search": null,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/89064284?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/89064284",
+      "relations": [],
+      "employer": {
+          "id": "630052",
+          "name": "UFATECH",
+          "url": "https://api.hh.ru/employers/630052",
+          "alternate_url": "https://hh.ru/employer/630052",
+          "logo_urls": {
+              "original": "https://hhcdn.ru/employer-logo-original/522678.png",
+              "240": "https://hhcdn.ru/employer-logo/2532190.png",
+              "90": "https://hhcdn.ru/employer-logo/2532189.png"
+          },
+          "vacancies_url": "https://api.hh.ru/vacancies?employer_id=630052",
+          "accredited_it_employer": false,
+          "trusted": true
+      },
+      "snippet": {
+          "requirement": "Базовые знания JS, TS, React Hooks, <highlighttext>NodeJs</highlighttext>. - Умение писать быстро надёжный, легко понятный код. - Умение вникать в задачу и реализовывать...",
+          "responsibility": "Технологический стек: - Backend: <highlighttext>NodeJs</highlighttext>, TypeScript, NestJs. - Frontend: TypeScript, React Hooks + MobX. - Работа с данными: PostgreSQL, Redis. - Инструменты разработки: VS..."
+      },
+      "contacts": null,
+      "schedule": {
+          "id": "fullDay",
+          "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+          {
+              "id": "96",
+              "name": "Программист, разработчик"
+          }
+      ],
+      "accept_incomplete_resumes": true,
+      "experience": {
+          "id": "noExperience",
+          "name": "Нет опыта"
+      },
+      "employment": {
+          "id": "full",
+          "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+  },
+  {
+      "id": "89061936",
+      "premium": false,
+      "name": "Fullstack Web Разработчик",
+      "department": null,
+      "has_test": false,
+      "response_letter_required": false,
+      "area": {
+          "id": "160",
+          "name": "Алматы",
+          "url": "https://api.hh.ru/areas/160"
+      },
+      "salary": {
+          "from": 500000,
+          "to": null,
+          "currency": "KZT",
+          "gross": true
+      },
+      "type": {
+          "id": "open",
+          "name": "Открытая"
+      },
+      "address": {
+          "city": "Алматы",
+          "street": "проспект Абая",
+          "building": "151/115",
+          "lat": 43.239298,
+          "lng": 76.891665,
+          "description": null,
+          "raw": "Алматы, проспект Абая, 151/115",
+          "metro": {
+              "station_name": "Алатау",
+              "line_name": "Первая",
+              "station_id": "64.436",
+              "line_id": "64",
+              "lat": 43.239041,
+              "lng": 76.897612
+          },
+          "metro_stations": [
+              {
+                  "station_name": "Алатау",
+                  "line_name": "Первая",
+                  "station_id": "64.436",
+                  "line_id": "64",
+                  "lat": 43.239041,
+                  "lng": 76.897612
+              }
+          ],
+          "id": "2182737"
+      },
+      "response_url": null,
+      "sort_point_distance": null,
+      "published_at": "2023-11-03T17:03:55+0300",
+      "created_at": "2023-11-03T17:03:55+0300",
+      "archived": false,
+      "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=89061936",
+      "show_logo_in_search": null,
+      "insider_interview": null,
+      "url": "https://api.hh.ru/vacancies/89061936?host=hh.ru",
+      "alternate_url": "https://hh.ru/vacancy/89061936",
+      "relations": [],
+      "employer": {
+          "id": "3584294",
+          "name": "Alau Solutions",
+          "url": "https://api.hh.ru/employers/3584294",
+          "alternate_url": "https://hh.ru/employer/3584294",
+          "logo_urls": {
+              "240": "https://hhcdn.ru/employer-logo/2792200.png",
+              "90": "https://hhcdn.ru/employer-logo/2792199.png",
+              "original": "https://hhcdn.ru/employer-logo-original/587736.png"
+          },
+          "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3584294",
+          "accredited_it_employer": false,
+          "trusted": true
+      },
+      "snippet": {
+          "requirement": "понимание flux архитектуры. - разработка бэкенда на <highlighttext>nodejs</highlighttext>. - понимание протоколов tcp/ip и http. - опыт c postgresql. - опыт c elasticsearch. - ",
+          "responsibility": "верстка одностраничных web приложений. - поддержка качества кода с помощью eslint и stylelint."
+      },
+      "contacts": null,
+      "schedule": {
+          "id": "fullDay",
+          "name": "Полный день"
+      },
+      "working_days": [],
+      "working_time_intervals": [],
+      "working_time_modes": [],
+      "accept_temporary": false,
+      "professional_roles": [
+          {
+              "id": "96",
+              "name": "Программист, разработчик"
+          }
+      ],
+      "accept_incomplete_resumes": false,
+      "experience": {
+          "id": "between1And3",
+          "name": "От 1 года до 3 лет"
+      },
+      "employment": {
+          "id": "full",
+          "name": "Полная занятость"
+      },
+      "adv_response_url": null,
+      "is_adv_vacancy": false
+  }
+]

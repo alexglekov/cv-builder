@@ -1,0 +1,21 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	cursor: pointer;
+	width: vw(198);
+	height: vw(39);
+
+	background: #c93c3d;
+	border-radius: vw(10);
+	border: none;
+
+	font-weight: 500;
+	font-size: vw(16);
+	line-height: vw(20);
+	color: #ffffff;
+}
+
+.disabled {
+	cursor: not-allowed;
+	background: rgba($color: #c93c3d, $alpha: 0.6);
+}

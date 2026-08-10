@@ -1,0 +1,12 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	cursor: pointer;
+	width: vw(24);
+	height: vw(24);
+
+	svg {
+		width: vw(24);
+		height: vw(24);
+	}
+}

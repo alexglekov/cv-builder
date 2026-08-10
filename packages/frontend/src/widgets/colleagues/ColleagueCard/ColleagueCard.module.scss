@@ -1,0 +1,43 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+	height: vw(198);
+	width: vw(550);
+
+	box-sizing: border-box;
+	padding: vw(33) vw(28);
+	background: #ffffff;
+	border: 1px solid #d0d0d0;
+	border-radius: vw(10);
+
+	.features {
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		gap: vw(14);
+
+		.removeColleagueFeature {
+			cursor: pointer;
+
+			width: vw(24);
+			height: vw(24);
+
+			svg {
+				width: vw(24);
+				height: vw(24);
+			}
+		}
+	}
+}
+
+// .isNotOpend {
+// 	transition: all 0.5s;
+
+// 	height: fit-content;
+// }
+
+// .isOpend {
+// 	transition: all 1s;
+// 	height: fit-content;
+// }

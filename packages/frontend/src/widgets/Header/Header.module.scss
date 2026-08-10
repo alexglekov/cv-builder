@@ -1,0 +1,26 @@
+@import '../../app/styles/index.scss';
+
+.wrapper {
+	// position: sticky;
+	background: $element-color;
+	box-shadow: 0px 4px 4px $border-color;
+	min-height: vhw(78);
+	grid-column-start: 1;
+	grid-column-end: 3;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.logo {
+		cursor: pointer;
+		margin-left: vw(48);
+		display: flex;
+		align-items: center;
+
+		img {
+			width: vw(172);
+			height: vw(32);
+		}
+	}
+}

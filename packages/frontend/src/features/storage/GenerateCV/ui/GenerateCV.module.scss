@@ -1,0 +1,12 @@
+@import '../../../../app/styles/index.scss';
+
+.icon {
+	cursor: pointer;
+	width: vw(29);
+	height: vhw(29);
+
+	svg {
+		width: vw(29);
+		height: vhw(29);
+	}
+}

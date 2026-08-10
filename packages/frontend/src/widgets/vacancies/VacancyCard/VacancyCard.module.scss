@@ -1,0 +1,63 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+	position: relative;
+
+	padding: vw(33) vw(28);
+	background: #ffffff;
+	border: 1px solid #d0d0d0;
+	border-radius: vw(10);
+
+	border-left-width: vw(40);
+
+	.cardWrapper {
+		display: flex;
+		overflow: hidden;
+		width: 100%;
+
+		.features {
+			display: flex;
+			flex-direction: column;
+			margin-left: auto;
+
+			gap: vw(6);
+
+			.other {
+				margin: vw(10) vw(10) 0 0;
+				align-self: flex-end;
+				display: flex;
+				gap: vw(10);
+			}
+		}
+	}
+
+	.circleBtn {
+		position: absolute;
+		bottom: -(vw(18));
+		right: vw(18);
+		transform: rotate(-90deg);
+	}
+}
+
+.greenVacancy {
+	border-left-color: #80d77f;
+}
+
+.redVacancy {
+	border-left-color: #f37374;
+}
+
+.orangeVacancy {
+	border-left-color: #f4ce6e;
+}
+// .isNotOpend {
+// 	transition: all 0.5s;
+
+// 	height: fit-content;
+// }
+
+// .isOpend {
+// 	transition: all 1s;
+// 	height: fit-content;
+// }

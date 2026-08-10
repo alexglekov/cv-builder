@@ -1,0 +1,16 @@
+@import '../../../../app/styles/index.scss';
+
+.modal {
+	display: flex;
+	position: absolute;
+	z-index: 1000;
+	background: transparentize(#141414, 0.6);
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+
+	.loader {
+		margin-top: vw(800);
+	}
+}

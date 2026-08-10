@@ -1,0 +1,124 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+	position: relative;
+
+	padding: vw(33) vw(28);
+	background: #ffffff;
+	border: 1px solid #d0d0d0;
+	border-radius: vw(10);
+
+	.cardWrapper {
+		display: flex;
+		overflow: hidden;
+		width: 100%;
+		display: flex;
+
+		.fullCard {
+			.title {
+				cursor: default;
+				font-style: normal;
+				font-weight: 500;
+				font-size: vw(20);
+				line-height: vw(24);
+
+				color: #000000;
+			}
+
+			.addTech {
+				margin-left: vw(70);
+			}
+
+			.techns {
+				display: flex;
+				flex-direction: column;
+				margin: vw(20) 0 vw(20) vw(20);
+				gap: vw(15);
+
+				.item {
+					width: fit-content;
+					min-width: vw(800);
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+
+					.title {
+						cursor: default;
+						font-style: normal;
+						font-weight: 500;
+						font-size: vw(16);
+						line-height: vw(20);
+
+						color: #000000;
+					}
+					padding: 0 vw(20) vw(15) vw(20);
+					border-bottom: vw(2) solid #f3f3f3;
+
+					.features {
+						display: flex;
+						gap: vw(10);
+						align-items: center;
+						flex-direction: row;
+
+						.icon {
+							cursor: pointer;
+
+							width: vw(22);
+							height: vw(22);
+
+							svg {
+								width: vw(22);
+								height: vw(22);
+							}
+						}
+					}
+
+					&:last-child {
+						border-bottom: none;
+					}
+				}
+			}
+		}
+
+		.smallCard {
+			.title {
+				cursor: default;
+				left: vw(33);
+				top: vw(24);
+
+				font-style: normal;
+				font-weight: 500;
+				font-size: vw(20);
+				line-height: vw(24);
+
+				color: #000000;
+			}
+		}
+
+		.features {
+			display: flex;
+			margin-left: auto;
+
+			gap: vw(15);
+
+			.icon {
+				cursor: pointer;
+				width: vw(24);
+				height: vw(24);
+
+				svg {
+					width: vw(24);
+					height: vw(24);
+				}
+			}
+		}
+	}
+
+	.circleBtn {
+		position: absolute;
+		bottom: -(vw(18));
+		right: vw(100);
+		transform: rotate(-90deg);
+	}
+}

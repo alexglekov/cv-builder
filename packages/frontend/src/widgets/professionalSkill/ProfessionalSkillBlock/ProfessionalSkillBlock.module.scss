@@ -1,0 +1,58 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+
+	.skillsName {
+		cursor: default;
+		font-style: normal;
+		font-weight: 500;
+		font-size: vw(18);
+		line-height: vw(20);
+
+		width: vw(400);
+
+		color: #c93c3d;
+	}
+
+	.skillsTable {
+		display: flex;
+		flex-direction: column;
+		gap: vw(10);
+
+		width: 100%;
+		.row {
+			width: 100%;
+			display: flex;
+
+			.name {
+				cursor: default;
+				text-align: center;
+				width: vw(550);
+			}
+
+			.exp {
+				cursor: default;
+				margin-left: auto;
+				text-align: center;
+				margin-right: vw(160);
+				width: vw(200);
+			}
+
+			.last {
+				cursor: default;
+				width: vw(200);
+				text-align: center;
+			}
+
+			.text {
+				cursor: default;
+				font-weight: 500;
+				font-size: vw(16);
+				line-height: vw(24);
+
+				color: #000000;
+			}
+		}
+	}
+}

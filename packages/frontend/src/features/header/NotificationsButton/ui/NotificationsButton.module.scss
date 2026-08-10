@@ -1,0 +1,17 @@
+@import '../../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+	align-items: center;
+
+	.iconBell {
+		cursor: pointer;
+		width: vw(30);
+		height: vhw(30);
+
+		svg {
+			width: vw(30);
+			height: vhw(30);
+		}
+	}
+}

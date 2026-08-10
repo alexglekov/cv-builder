@@ -1,0 +1,132 @@
+@import '../../../../../../app/styles/index.scss';
+
+.wrapper {
+	padding: vw(30) vw(60) 0 vw(60);
+
+	.domainsArea {
+		padding: vw(5);
+		max-height: vw(580);
+		overflow-y: auto;
+		display: flex;
+		flex-wrap: wrap;
+		height: fit-content;
+		gap: vw(10);
+
+		.noDomains {
+			margin-left: vw(270);
+			font-weight: 500;
+			font-size: vw(16);
+			line-height: vw(20);
+			color: rgba(0, 0, 0, 0.5);
+		}
+
+		&::-webkit-scrollbar {
+			width: vw(2);
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: gray;
+		}
+
+		.item {
+			cursor: default;
+			display: flex;
+			align-items: center;
+			height: fit-content;
+			word-break: break-all;
+
+			padding: vw(5) 0 vw(5) 0;
+			width: fit-content;
+
+			border: 1px solid #d0d0d0;
+			border-radius: vw(10);
+
+			.text {
+				margin-left: vw(17);
+				font-weight: 500;
+				font-size: vw(16);
+				line-height: vw(20);
+				color: rgba(0, 0, 0, 0.5);
+			}
+
+			.icon {
+				cursor: pointer;
+				margin: 0 vw(4) 0 vw(15);
+				max-width: vw(27);
+				max-height: vw(27);
+
+				svg {
+					width: vw(27);
+					height: vw(27);
+				}
+			}
+		}
+	}
+
+	.addDomain {
+		display: flex;
+		flex-direction: column;
+		height: fit-content;
+		margin-top: vw(20);
+
+		.inputData {
+			align-self: flex-end;
+			width: vw(390);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.icon {
+				cursor: pointer;
+				width: vw(24);
+				height: vw(24);
+
+				svg {
+					path {
+						fill: #c93c3d;
+					}
+
+					width: vw(24);
+					height: vw(24);
+				}
+			}
+
+			.inputNameWrapper {
+				border: 1px solid #d0d0d0;
+				border-radius: vw(10);
+				height: vw(40);
+				width: fit-content;
+
+				input {
+					padding-left: vw(20);
+					background-color: transparent;
+					outline: none;
+					border: none;
+
+					width: vw(300);
+					font-weight: 500;
+					font-size: vw(16);
+					line-height: vw(20);
+					color: rgba(0, 0, 0, 0.5);
+				}
+			}
+		}
+
+		.btn {
+			cursor: pointer;
+			align-self: flex-end;
+			height: vw(25);
+			width: vw(150);
+		}
+	}
+
+	.errorMsg {
+		cursor: default;
+		align-self: flex-end;
+		margin: vw(10) vw(30) 0 0;
+		font-weight: 400;
+		font-size: vw(14);
+		line-height: vw(17);
+		color: #c93c3d;
+	}
+}

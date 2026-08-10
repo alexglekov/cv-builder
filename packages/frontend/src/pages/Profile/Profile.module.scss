@@ -1,0 +1,14 @@
+@import '../../app/styles/index.scss';
+
+.wrapper {
+	min-height: 100%;
+	height: fit-content;
+	box-sizing: border-box;
+	padding: vw(30);
+	width: 100%;
+
+	background: $element-color;
+	border: 1px solid $border-color;
+	border-radius: vw(10);
+	box-shadow: 2px 4px 4px $border-color;
+}

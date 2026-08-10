@@ -1,0 +1,19 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+
+	height: 100%;
+	padding: vw(32) vw(32) vw(32) vw(16);
+	overflow: auto;
+
+	&::-webkit-scrollbar {
+		width: vw(4);
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: gray;
+	}
+
+	box-sizing: inherit;
+}

@@ -1,0 +1,104 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	width: vw(650);
+	height: vw(530);
+
+	border-radius: vw(10);
+	border-width: vw(3);
+	border-style: solid;
+
+	margin-bottom: vw(60);
+	margin-right: vw(60);
+
+	background-color: #fafafa;
+	border-color: #c93c3d;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// justify-content: center;
+	gap: vw(10);
+
+	.closeBotIcon {
+		align-self: start;
+		margin-left: vw(10);
+		margin-top: vw(10);
+		cursor: pointer;
+		width: vw(30);
+		height: vw(30);
+
+		svg {
+			width: vw(30);
+			height: vw(30);
+		}
+	}
+
+	.messages {
+		height: vw(410);
+		width: vw(618);
+
+		&::-webkit-scrollbar {
+			width: 0;
+		}
+
+		overflow-y: scroll;
+		overflow-x: hidden;
+
+		display: flex;
+		flex-direction: column;
+
+		gap: vw(10);
+	}
+
+	.messageBox {
+		height: fit-content;
+		display: flex;
+		align-items: center;
+
+		.sendMessageIcon {
+			cursor: pointer;
+			margin-left: vw(10);
+			width: vw(28);
+			height: vw(28);
+
+			svg {
+				width: vw(28);
+				height: vw(28);
+			}
+		}
+
+		.messageInput {
+			width: vw(570);
+			height: vw(45);
+
+			background-color: #ffffff;
+			border-color: #c1c1c1;
+			border-style: solid;
+
+			box-sizing: border-box;
+
+			padding: vw(12) vw(18);
+			border-radius: vw(12);
+			border-width: vw(3);
+
+			display: flex;
+			align-items: center;
+
+			input {
+				width: vw(520);
+				background: transparent;
+
+				font-family: 'Montserrat';
+				font-style: normal;
+				font-size: vw(14);
+				font-weight: 500;
+				line-height: vw(20);
+				letter-spacing: 0;
+
+				border: none;
+				outline: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,43 @@
+@import '../../../../app/styles/index.scss';
+
+.content {
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+
+	.headD {
+		display: flex;
+		width: vw(1200);
+		justify-content: space-between;
+
+		.date {
+			cursor: default;
+			margin-left: auto;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: vw(16);
+			line-height: vw(20);
+		}
+
+		.title {
+			cursor: default;
+			text-transform: uppercase;
+			font-weight: 700;
+			width: vw(900);
+			font-size: vw(16);
+			line-height: vw(20);
+		}
+	}
+
+	.description {
+		white-space: pre-wrap;
+		padding: vw(20) 0 0 vw(20);
+		cursor: default;
+		width: vw(1000);
+		font-weight: 500;
+		font-size: vw(15);
+		line-height: vw(18);
+
+		color: rgba(0, 0, 0, 0.6);
+	}
+}

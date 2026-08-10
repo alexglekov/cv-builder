@@ -1,0 +1,26 @@
+@import '../../../app/styles/index.scss';
+
+.navigations {
+	height: vw(50);
+	display: flex;
+
+	.navLink {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		margin-left: vw(30);
+		height: vw(50);
+		padding: 0 vw(30) 0 vw(30);
+
+		text-decoration: none;
+		font-weight: 500;
+		font-size: vw(16);
+		line-height: vw(20);
+		color: rgba(0, 0, 0, 0.6);
+	}
+
+	.active {
+		border-bottom: vw(2) solid #c93c3d;
+	}
+}

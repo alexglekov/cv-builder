@@ -1,0 +1,85 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+
+	align-self: flex-end;
+
+	.botIcon {
+		width: vw(36);
+		height: vw(36);
+
+		align-self: flex-end;
+
+		svg {
+			width: vw(36);
+			height: vw(36);
+		}
+	}
+
+	.messageWrapper {
+		max-width: vw(350);
+		width: fit-content;
+		height: fit-content;
+
+		border-radius: vw(10);
+		border-width: 0;
+		border-style: solid;
+		background-color: #c93c3d;
+
+		padding: vw(10);
+		border-bottom-right-radius: 0;
+
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+
+		.messageBody {
+			cursor: default;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-size: vw(14);
+			font-weight: 500;
+			line-height: vw(20);
+			letter-spacing: 0;
+			text-align: left;
+			color: #ffffff;
+		}
+
+		.messageDate {
+			cursor: default;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-size: vw(12);
+			font-weight: 500;
+			line-height: vw(20);
+			letter-spacing: 0;
+			text-align: left;
+			color: #ffffff;
+			align-self: flex-end;
+		}
+	}
+
+	.isBotMessageWrapper {
+		border-width: vw(3);
+		border-color: #d0d0d0;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: vw(10);
+		background-color: #ffffff;
+
+		.messageBody {
+			color: #000000cc;
+		}
+
+		.messageDate {
+			color: #000000cc;
+		}
+	}
+}
+
+.isBotWrapper {
+	align-self: flex-start;
+}

@@ -1,0 +1,16 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	box-sizing: border-box;
+	padding: vw(30);
+	height: fit-content;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+
+	.whiteButton {
+		align-self: flex-end;
+		margin: 0 vw(30) vw(30) 0;
+	}
+}

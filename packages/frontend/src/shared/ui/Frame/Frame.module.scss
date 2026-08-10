@@ -1,0 +1,21 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	border-color: #d0d0d0;
+	border-radius: vw(10);
+	border-style: solid;
+
+	legend {
+		font-weight: 700;
+		font-size: vw(16);
+		line-height: vw(20);
+
+		color: rgba(0, 0, 0, 0.4);
+	}
+
+	font-weight: 500;
+	font-size: vw(16);
+	line-height: vw(20);
+
+	color: rgba(0, 0, 0, 0.7);
+}

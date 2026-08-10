@@ -1,0 +1,32 @@
+export interface LanguagesFilters {
+	title: string
+}
+
+export interface ILanguage {
+	id: number
+	name: string
+}
+
+export interface LanguagesState {
+	data: Array<ILanguage>
+	_data: Array<ILanguage>
+	filters: LanguagesFilters
+	isLoading: boolean
+	isLoaded: boolean
+	isFailed: boolean
+	error: null | string
+}
+
+export enum LanguagesActionsTokens {
+	LOADING_LANGUAGES_INFO_ACTION = 'LOADING_LANGUAGES_INFO_ACTION',
+	LOADED_LANGUAGES_INFO_ACTION = 'LOADED_LANGUAGES_INFO_ACTION',
+	ERROR_IN_LOADING_LANGUAGES_INFO_ACTION = 'ERROR_IN_LOADING_LANGUAGES_INFO_ACTION',
+	CHANGE_LANGUAGES_FILTERS_ACTION = 'CHANGE_LANGUAGES_FILTERS_ACTION',
+
+	NEW_LANGUAGE_CREATED_ACTION = 'NEW_LANGUAGE_CREATED_ACTION',
+
+	EDITED_LANGUAGE_INFO_ACTION = 'EDITED_LANGUAGE_INFO_ACTION',
+	DELETED_LANGUAGE_INFO_ACTION = 'DELETED_LANGUAGE_INFO_ACTION',
+
+	ASYNC_LOAD_LANGUAGES_INFO_ACTION = 'ASYNC_LOAD_LANGUAGES_INFO_ACTION'
+}

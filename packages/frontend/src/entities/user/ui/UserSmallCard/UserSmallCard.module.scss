@@ -1,0 +1,30 @@
+@import '../../../../app/styles/index.scss';
+
+.wrapper {
+	.info {
+		width: fit-content;
+		height: vw(50);
+		display: flex;
+		align-items: center;
+
+		.avatar {
+			width: vw(50);
+			height: vw(50);
+
+			img {
+				width: vw(50);
+				height: vw(50);
+				border-radius: vw(100);
+			}
+		}
+
+		.credentials {
+			display: flex;
+			align-items: center;
+			font-weight: 500;
+			font-size: vw(20);
+			line-height: vw(24);
+			margin-left: vw(16);
+		}
+	}
+}

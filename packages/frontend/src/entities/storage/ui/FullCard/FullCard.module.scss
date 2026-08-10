@@ -1,0 +1,45 @@
+@import '../../../../app/styles/index.scss';
+
+.content {
+	height: fit-content;
+
+	.title {
+		cursor: default;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: vw(16);
+		line-height: vw(20);
+	}
+
+	.mainInfo {
+		padding: vw(14) 0 0 vw(14);
+		display: flex;
+		flex-direction: column;
+		height: fit-content;
+
+		.times {
+			display: flex;
+			gap: vw(100);
+
+			.objInfo {
+				cursor: default;
+				margin-top: vw(20);
+				font-weight: 500;
+				font-size: vw(15);
+				line-height: vw(18);
+
+				color: rgba(0, 0, 0, 0.6);
+			}
+		}
+
+		.description {
+			cursor: default;
+			width: vw(1000);
+			font-weight: 500;
+			font-size: vw(15);
+			line-height: vw(18);
+
+			color: rgba(0, 0, 0, 0.6);
+		}
+	}
+}

@@ -1,0 +1,146 @@
+@import '../../../../../../app/styles/index.scss';
+
+.wrapper {
+	padding: vw(30) vw(60) 0 vw(60);
+
+	.languages {
+		height: fit-content;
+
+		.row {
+			height: vw(35);
+			display: flex;
+			align-items: center;
+			gap: vw(10);
+			padding: vw(5) 0 vw(5) 0;
+		}
+
+		.contentBody {
+			margin-top: vw(10);
+			height: fit-content;
+			max-height: vw(310);
+			overflow-y: auto;
+
+			&::-webkit-scrollbar {
+				width: vw(2);
+			}
+
+			&::-webkit-scrollbar-thumb {
+				background-color: gray;
+			}
+		}
+
+		.delBtn {
+			cursor: pointer;
+			width: vw(28);
+			height: vw(28);
+
+			svg {
+				width: vw(28);
+				height: vw(28);
+			}
+		}
+
+		.col {
+			cursor: default;
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			padding-left: vw(28);
+
+			font-weight: 700;
+			font-size: vw(14);
+			line-height: vw(17);
+			color: rgba(0, 0, 0, 0.5);
+
+			border: 1px solid #d0d0d0;
+			border-radius: vw(10);
+
+			&:nth-child(1) {
+				width: 55%;
+			}
+
+			&:nth-child(2) {
+				width: 35%;
+			}
+		}
+	}
+
+	.noLanguages {
+		height: fit-content;
+		margin-left: vw(270);
+		font-weight: 500;
+		font-size: vw(16);
+		line-height: vw(20);
+		color: rgba(0, 0, 0, 0.5);
+	}
+
+	.addLanguage {
+		display: flex;
+		flex-direction: column;
+		height: fit-content;
+		margin-top: vw(15);
+
+		.inputData {
+			align-self: flex-end;
+			width: vw(620);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.icon {
+				cursor: pointer;
+				width: vw(24);
+				height: vw(24);
+
+				svg {
+					path {
+						fill: #c93c3d;
+					}
+
+					width: vw(24);
+					height: vw(24);
+				}
+			}
+
+			.inputWrapper {
+				border: 1px solid #d0d0d0;
+				border-radius: vw(10);
+				height: vw(40);
+				width: fit-content;
+
+				select {
+					cursor: text;
+					padding-left: vw(20);
+					background-color: transparent;
+					outline: none;
+					border: none;
+					-moz-appearance: none;
+					-webkit-appearance: none;
+
+					width: vw(250);
+					font-weight: 500;
+					font-size: vw(16);
+					line-height: vw(20);
+					color: rgba(0, 0, 0, 0.5);
+				}
+			}
+		}
+
+		.btn {
+			align-self: flex-end;
+			height: vw(25);
+			margin-right: vw(20);
+			width: vw(140);
+		}
+	}
+
+	.errorMsg {
+		cursor: default;
+		align-self: flex-end;
+		margin: vw(10) vw(30) 0 0;
+		font-weight: 400;
+		font-size: vw(14);
+		line-height: vw(17);
+		color: #c93c3d;
+	}
+}

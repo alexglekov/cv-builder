@@ -1,0 +1,105 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+
+	.passMessage {
+		margin-top: vw(20);
+
+		border-radius: vw(10);
+		border: 1px solid #f4ce6e;
+
+		padding: vw(10) vw(10);
+		box-sizing: border-box;
+
+		width: max-content;
+
+		color: #f4ce6e;
+		font-family: 'Montserrat';
+		font-size: vw(14);
+		font-style: normal;
+		font-weight: 500;
+		line-height: vw(18);
+	}
+
+	.greenVacancy {
+		border-color: #80d77f;
+		color: #80d77f;
+	}
+
+	.redVacancy {
+		border-color: #f37374;
+		color: #f37374;
+	}
+
+	.orangeVacancy {
+		border-color: #f4ce6e;
+		color: #f4ce6e;
+	}
+
+	.advice {
+		margin-top: vw(8);
+		color: #868282;
+		font-family: 'Montserrat';
+		font-size: vw(12);
+		font-style: normal;
+		font-weight: 500;
+		line-height: vw(18); /* 150% */
+	}
+
+	.companyName {
+		color: rgba(0, 0, 0, 0.8);
+		font-family: 'Montserrat';
+		font-size: vw(16);
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	.stuff {
+		margin-top: vw(20);
+
+		padding: vw(10) vw(20);
+		box-sizing: border-box;
+		border-radius: vw(10);
+		border: vw(2) solid #c1c1c1;
+
+		width: max-content;
+
+		color: #000;
+		font-family: 'Montserrat';
+		font-size: vw(16);
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+	.addtionalInfromation {
+		margin-top: vw(20);
+
+		display: flex;
+
+		.addtionalInfromationItem {
+			color: #000;
+			font-family: 'Montserrat';
+			font-size: vw(15);
+			font-style: normal;
+			font-weight: 600;
+			line-height: vw(18); /* 120% */
+		}
+
+		li {
+			margin: vw(5) 0 0 vw(5);
+			color: #c93c3d;
+
+			span {
+				font-weight: 500;
+				font-size: vw(15);
+				line-height: vw(18);
+
+				color: rgba(0, 0, 0, 0.6);
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+@import '../../../../app/styles/index.scss';
+
+.wrapper {
+	cursor: pointer;
+
+	.icon {
+		height: vw(32);
+		width: vw(32);
+
+		svg {
+			height: vw(32);
+			width: vw(32);
+		}
+	}
+}
+
+.modal {
+	display: flex;
+	position: absolute;
+	z-index: 1000;
+	background: transparentize(#141414, 0.95);
+	width: 100vw;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}

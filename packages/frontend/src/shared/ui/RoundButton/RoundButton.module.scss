@@ -1,0 +1,18 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	cursor: pointer;
+	background: $element-color;
+	width: vw(36);
+	height: vw(36);
+	border: 2px solid $border-color;
+	border-radius: vw(100);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+		width: 50%;
+		height: 50%;
+	}
+}

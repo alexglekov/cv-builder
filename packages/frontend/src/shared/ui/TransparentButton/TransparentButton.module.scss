@@ -1,0 +1,25 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	cursor: pointer;
+
+	display: flex;
+	align-items: center;
+	width: fit-content;
+
+	svg {
+		margin-right: vw(6);
+		width: vw(21);
+		height: vw(21);
+
+		path {
+			fill: #c93c3d;
+		}
+	}
+
+	font-weight: 500;
+	font-size: vw(14);
+	line-height: vw(17);
+
+	color: #c93c3d;
+}

@@ -1,0 +1,41 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+
+	.icon {
+		width: vw(24);
+		height: vw(24);
+
+		svg {
+			width: vw(24);
+			height: vw(24);
+
+			path {
+				fill: #c93c3d;
+			}
+		}
+	}
+
+	.otherInfo {
+		display: flex;
+		flex-direction: column;
+		margin-left: vw(10);
+
+		.title {
+			margin-top: vw(3);
+			font-weight: 500;
+			font-size: vw(15);
+			line-height: vw(18);
+			margin-bottom: vw(5);
+
+			color: #000000;
+		}
+
+		.default {
+			font-weight: 500;
+			font-size: vw(15);
+			line-height: vw(18);
+		}
+	}
+}

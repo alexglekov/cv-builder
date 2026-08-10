@@ -1,0 +1,28 @@
+@import '../app/styles/index.scss';
+
+.wrapper {
+	height: 100vh;
+	display: grid;
+	grid-template-rows: max-content 1fr max-content;
+	grid-template-columns: max-content 1fr;
+
+	box-sizing: border-box;
+
+	.privatePages {
+		width: 100%;
+		padding: vw(32) vw(32) vw(32) vw(16);
+		grid-row-start: 2;
+		grid-row-end: 3;
+		overflow: auto;
+
+		&::-webkit-scrollbar {
+			width: vw(4);
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: gray;
+		}
+
+		box-sizing: inherit;
+	}
+}

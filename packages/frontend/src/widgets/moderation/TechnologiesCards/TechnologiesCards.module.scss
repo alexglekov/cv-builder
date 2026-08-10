@@ -1,0 +1,22 @@
+@import '../../../app/styles/index.scss';
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: vw(32);
+
+	.notTechnologies {
+		cursor: default;
+		align-self: center;
+
+		font-weight: 500;
+		font-size: vw(22);
+		line-height: vw(23);
+
+		color: rgba(0, 0, 0, 0.6);
+	}
+}
+
+.loaderWrapper {
+	margin: 20% 50%;
+}
